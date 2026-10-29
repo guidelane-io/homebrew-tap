@@ -2,23 +2,23 @@
 class GuidelaneLibrary < Formula
   desc "Server that keeps one shared Guidelane Studio library on your own network"
   homepage "https://github.com/guidelane-io/guidelane-library"
-  version "0.1.0"
+  version "0.1.1"
   # The binary is proprietary, under the Guidelane Library license in EULA.txt.
   license :cannot_represent
 
   on_macos do
-    url "https://downloads.guidelane.io/library/0.1.0/guidelane-library-0.1.0-universal-apple-darwin.tar.gz"
-    sha256 "700065a80dd59cc8217aad19268c671423bb5ac4e0010cc43e71f8a0a7dfd98c"
+    url "https://downloads.guidelane.io/library/0.1.1/guidelane-library-0.1.1-universal-apple-darwin.tar.gz"
+    sha256 "8495a664d70f34554054ec087f9c6bd1b8a48a61977c7243fe40f52b5b7c913d"
   end
 
   on_linux do
     on_intel do
-      url "https://downloads.guidelane.io/library/0.1.0/guidelane-library-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6a5342291ec90d2a2834e8fec589fb9face13eda6e6684bf621dd94ac103d3d6"
+      url "https://downloads.guidelane.io/library/0.1.1/guidelane-library-0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f856913945049be288309571df7b4fd0f9d14d9c1dfe6b4f0c17838963ae9b28"
     end
     on_arm do
-      url "https://downloads.guidelane.io/library/0.1.0/guidelane-library-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9244b653356a18552ef251863b1b6e6776ff1f25a829a579785283183cf517bf"
+      url "https://downloads.guidelane.io/library/0.1.1/guidelane-library-0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7c961eb7dffc1267ba48452b90156e3791a49d82653c6e468668d83617eff5b4"
     end
   end
 
